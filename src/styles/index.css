@@ -1,0 +1,26 @@
+/* Desenvolva sua estilização aqui ... */
+@import url("buttons.css");
+@import url("inputRager.css");
+@import url("products.css");
+
+.header__container{
+  width: var(--container);
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: 4.8125rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.dark__controller{
+  cursor: pointer;
+}
+
+.titleH2{
+ font-size: var(--font-2);
+ font-weight: 600;
+ color: var(--color-grey-1);
+}
+

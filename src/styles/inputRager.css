@@ -1,0 +1,16 @@
+.ranger__container{
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+
+.div-ranger{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-range{
+  width: 690px;
+}

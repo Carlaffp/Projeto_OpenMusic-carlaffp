@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="dark__mode" lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles/index.css" />
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <div>
+        <img class="logo" src="./src/assets/img/logo.svg" alt="logo">
+      </div>
+      <div>
+      <img class="dark__controller" src="./src/assets/img/buttonLua.svg" alt="">
+      </div>
+    </header>
+    <main class="main__container">
+      <section class="buttons__container">
+       <h2 class="titleH2">Gênero Musical</h2>
+      </section >
+      <section class="ranger__container">
+        <div class="div-ranger">
+          <h2 class="titleH2">Definir preço</h2>
+          <p class="titleH2"> Até R$ <span class="titleH2" id="priceToSearch">0</span></p>
+        </div>
+
+      <div>
+        <input class="input-range" type="range" id="inputRange" min="0" max="100" step="2" value="0">
+        <label for="price"></label>
+      </div>
+      </section>
+      
+      <section class="products__container">
+        <h2 class="titleH2">Álbuns Encontrados</h2>
+        <ul class="products__list"></ul>
+      </section>
+    </main>
+    <script src="./src/scripts/theme.js"></script>
+    <script src="./src/scripts/productsData.js"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.buttons__container{
+  display: flex;
+  flex-direction: column;
+  gap:1.875rem ;
+}
+
+.divButtonsType{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.875rem 
+}
+
+.buttonType{
+  width:3.625rem ;
+  height: 2rem;
+  background-color: var(--color-grey-8);
+  border: .0625rem solid var(--color-grey-8);
+  border-radius: var( --radius-1) ;
+  align-items: center;
+  font-weight: 500;
+  font-size: var(--font-3);
+  color: var(--color-grey-2);
+  cursor: pointer;
+}
+
+.buttonType:focus{
+  background-color: var(--color-disable-fixed);
+  color: var(--color-white-fixed);
+  border: .0625rem solid var(--color-actived-fixed);
+  cursor: pointer;
+}
+
+.buttonType:hover{
+  background-color: var(--color-grey-7);
+  color: var(--color-grey-2);
+}
